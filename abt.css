@@ -1,0 +1,71 @@
+body{
+    background:linear-gradient(purple,red);
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+#mee ,#pre{
+    text-align: center;
+}
+
+.about{
+    display:grid;
+    place-content: center;
+}
+#mee{
+    border:2px solid white;
+    width: 200px;
+    margin-left:120px;
+    border-radius:10px;
+    padding:5px;
+}
+.box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#edu{
+    text-align: center;
+    border:2px solid white;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border-radius:10px;
+    font-size:30px;
+}
+
+.main-box {
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    color:white;
+    position: relative;
+    margin:0px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .hidden-box {
+    padding:5px;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+    background-color:white;
+    color:black;
+    position: absolute;
+    top: 30%; /* This will position the hidden box outside the main box */
+    left: 120%; /* Adjust left value as needed */
+    transform: translateX(-50%);
+    display: none;
+  }
+  
+  .main-box:hover .hidden-box {
+    display: block;
+  }
+  

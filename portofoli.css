@@ -1,0 +1,105 @@
+body{
+    background:linear-gradient(purple,red);
+    background-size: cover;
+    height:750px;
+}
+.container{
+    position:fixed;
+}
+
+ul{
+    list-style-type: none;
+    border-right: 5px solid grey;
+    width:200px;
+    line-height:50px;
+    text-align: center;
+    margin-left:20px;
+    position: fixed;
+}
+#p{
+    text-align:center;
+    margin-left:10px;
+    margin-right:50px;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul li{
+    margin-right:50px;
+    padding:20px;
+    font-size:20px;
+    font-weight: bold;
+    color:white;
+}
+
+a li{
+    margin-left:20px;
+    width: 50px;
+    transition: padding 2s;
+}
+
+a li:hover{
+    padding:15px;
+    border-bottom:1px solid black;
+}
+
+ul li:hover{
+    color: black;
+
+}
+
+h2{
+    color:black;
+}
+   
+
+.demo{
+    display: flex;
+    justify-content: center;
+    margin-left:250px;
+    padding-top:80px;
+    
+    
+}
+
+
+.demo img{
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    margin-top:20px;
+}
+
+h4{
+    font-style: italic;
+    text-align: center;
+    margin-left:250px;
+}
+
+h1{
+    text-align: center;
+    margin-left:250px;
+    color:white;
+
+}
+
+p{
+    text-align: center;
+    margin-left:270px;
+    line-height:30px;
+}
+
+
+h3{
+    float: left;
+    margin-left:30px;
+    padding: 5px;
+    font-size:20px;
+    border:2px solid white;
+    background-color: black;
+    color: white;
+    font-style: italic;
+
+}
